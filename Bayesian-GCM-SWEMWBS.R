@@ -126,5 +126,6 @@ sink("log/SWEMWBS.txt")
 show(summarizePost(codaSamples1, filters =  c("^Med", "^sd","^corr"))) 
 sink()
 
-# export the results table in a cvs file 
+# export the results table into a cvs file 
 write.csv(resulttable, "SWEMWBS_resulttable.csv")
+
