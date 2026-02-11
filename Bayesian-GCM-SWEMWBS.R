@@ -1,5 +1,6 @@
 
-#Author notes: 
+#Author notes:
+#Example codes of fitting unconditional growth curve model on mental wellbeing measured by SWEMWBS in an uncontorlled pre-post study design. 
 #Codes developed based on: Oravecz, Z., & Muth, C. (2018). Fitting growth curve models in the Bayesian framework. Psychonomic Bulletin & Review, 25(1), 235-255.
 #If not interesed in fitting the model mannually, please check out the 'brms' package 
 
@@ -128,4 +129,5 @@ sink()
 
 # export the results table into a cvs file 
 write.csv(resulttable, "SWEMWBS_resulttable.csv")
+
 
